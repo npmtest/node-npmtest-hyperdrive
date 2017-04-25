@@ -1,6 +1,6 @@
 # npmtest-hyperdrive
 
-#### basic test coverage for  [hyperdrive (v8.3.0)](https://github.com/mafintosh/hyperdrive)  [![npm package](https://img.shields.io/npm/v/npmtest-hyperdrive.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyperdrive) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyperdrive.svg)](https://travis-ci.org/npmtest/node-npmtest-hyperdrive)
+#### basic test coverage for  [hyperdrive (v8.3.2)](https://github.com/mafintosh/hyperdrive)  [![npm package](https://img.shields.io/npm/v/npmtest-hyperdrive.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyperdrive) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyperdrive.svg)](https://travis-ci.org/npmtest/node-npmtest-hyperdrive)
 
 #### Hyperdrive is a secure, real time distributed file system
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-hyperdrive/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-hyperdrive/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-hyperdrive/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-hyperdrive/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-hyperdrive/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-hyperdrive/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-hyperdrive/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-hyperdrive/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-hyperdrive/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-hyperdrive/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-hyperdrive/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-hyperdrive/build/coverage.html/index.html)
 
@@ -65,10 +65,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "88c0a82c1a58fc82e3a1fd4e78006f44079ad731",
-        "tarball": "https://registry.npmjs.org/hyperdrive/-/hyperdrive-8.3.0.tgz"
+        "shasum": "d1975b776c8b4d6e3eea4e263ce538ec98464c1a",
+        "tarball": "https://registry.npmjs.org/hyperdrive/-/hyperdrive-8.3.2.tgz"
     },
-    "gitHead": "d8de07846b3292205d94ca790a18fc1aabe6a95e",
+    "gitHead": "68161733358bf10134ceb1801c81588ef7ea6bb8",
     "homepage": "https://github.com/mafintosh/hyperdrive",
     "license": "MIT",
     "main": "index.js",
@@ -86,7 +86,8 @@
     "scripts": {
         "test": "standard && tape test/*.js"
     },
-    "version": "8.3.0"
+    "version": "8.3.2",
+    "bin": {}
 }
 ```
 
